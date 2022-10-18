@@ -12,3 +12,23 @@
 
 //Manipulating attributes
 // $("a").attr("href", "https://www.yahoo.com");
+
+//Adding eventListener
+// $("h1").click(function () {
+//   $("h1").css("color", "purple");
+// });
+
+//EventListener on multiple elements
+// $("button").click(function () {
+//   $("h1").css("color", "purple");
+// });
+
+//Detecting keystrokes
+// $("input").keypress(function (event) {
+//   $("h1").text(event.key);
+// });
+
+//mouseover events
+// $("h1").on("mouseover", function () {
+//   $("h1").css("color", "red");
+// });
