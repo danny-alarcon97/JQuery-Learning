@@ -6,3 +6,9 @@
 // $("h1").removeClass("big-title");
 
 // $("h1").addClass("big-title margin-50");
+
+// Manipulating text
+// $("button").html("<em>Hey</em>");
+
+//Manipulating attributes
+// $("a").attr("href", "https://www.yahoo.com");
