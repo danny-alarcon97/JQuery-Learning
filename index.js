@@ -1,5 +1,5 @@
 // same as document.querySelector("h1")
-// $("h1").css("color", "red");
+// $("h1");
 
 // Manipulate styles & adding multiple classes
 // $("h1").addClass("big-title");
@@ -31,4 +31,34 @@
 //mouseover events
 // $("h1").on("mouseover", function () {
 //   $("h1").css("color", "red");
+// });
+
+//jQuery animations
+// $("button").on("click", function () {
+//   $("h1").hide();
+// });
+
+// $("button").on("click", function () {
+//   $("h1").toggle();
+// });
+
+// $("button").on("click", function () {
+//   $("h1").fadeToggle();
+// });
+
+// $("button").on("click", function () {
+//   $("h1").slideToggle();
+// });
+
+// $("button").on("click", function () {
+//   $("h1").animate({
+//     opacity: 0.5,
+//     margin: 20,
+//   });
+// });
+
+// $("button").on("click", function () {
+//   $("h1").slideUp().slideDown().animate({
+//     opacity: 0.5,
+//   });
 // });
